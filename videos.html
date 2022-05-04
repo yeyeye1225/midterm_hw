@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>DCM OTT</title>
+    <title>mini OTT</title>
     <script src="https://cdn.jsdelivr.net/npm/p5@1.4.1/lib/p5.min.js"></script>
 </head>
 <body>
@@ -16,11 +16,31 @@
         *{
             background-color: rgb(0, 0, 0);
         }
+        .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+          margin-bottom: 0;
+        }
+        .category{
+          text-align: center;
+        }
+        .card{
+          background-color: black;
+          border: 0px solid black(0,0,0,0);
+        }
+        body{
+          color:white;
+        }
+
+        .card>a:hover img {
+          transform: scale(1.1);
+          transition: transform 0.3s;
+          filter: brightness(70%);
+        }
+
     </style>
 
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
     <div class="container-fluid">
-      <a class="navbar-brand" href="index.html">dcmOTT</a>
+      <a class="navbar-brand" href="index.html">mini OTT</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDarkDropdown" aria-controls="navbarNavDarkDropdown" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -40,60 +60,24 @@
       </div>
     </div>
   </nav>  
-  
-  
+  <span class="category">   
+      <h1>SONG</h1>    
+  </span>
   <div class="card-group">
     <div class="card">
-      <img src="water.jpg" class="card-img-top" alt="...">
-      <div class="card-body">
-        
-        <p class="card-text">longer.</p>
-        
-      </div>
+      <a>
+        <img src="water.jpg" class="card-img-top" alt="...">
+      </a>
     </div>
     <div class="card">
-      <img src="water.jpg" class="card-img-top" alt="...">
-      <div class="card-body">
-        
-        <p class="card-text">longer.</p>
-        
-      </div>
+      <a>
+        <img src="water.jpg" class="card-img-top" alt="...">
+      </a>
     </div>
     <div class="card">
-      <img src="water.jpg" class="card-img-top" alt="...">
-      <div class="card-body">
-        
-        <p class="card-text">longer.</p>
-        
-      </div>
-    </div>
-    
-  </div>
-
-  <div class="card-group">
-    <div class="card">
-      <img src="water.jpg" class="card-img-top" alt="...">
-      <div class="card-body">
-        
-        <p class="card-text">longer.</p>
-        
-      </div>
-    </div>
-    <div class="card">
-      <img src="water.jpg" class="card-img-top" alt="...">
-      <div class="card-body">
-        
-        <p class="card-text">longer.</p>
-        
-      </div>
-    </div>
-    <div class="card">
-      <img src="water.jpg" class="card-img-top" alt="...">
-      <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-      </div>
+      <a>
+        <img src="water.jpg" class="card-img-top" alt="...">
+      </a>
     </div>
     
   </div>
